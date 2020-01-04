@@ -118,14 +118,14 @@ function newGame() {
 		maxScorePara.innerHTML = `playing first to <span class="max-score">${maxScore}</span>`;
 		scoreContainer.classList.remove('remove');
 		scoreContainer.classList.add('container');
+		let playerScore = 0,
+			computerScore = 0;
+		playerScoreDisplay.textContent = playerScore;
+		computerScoreDisplay.textContent = computerScore;
 		allElements.classList.remove('page-transition');
 	}, functioningTime);
 
 	let playerSelection;
-	let playerScore = 0,
-		computerScore = 0;
-	playerScoreDisplay.textContent = playerScore;
-	computerScoreDisplay.textContent = computerScore;
 
 	let resultsHistory = [];
 
