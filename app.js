@@ -123,6 +123,8 @@ function newGame() {
 	let playerSelection;
 	let playerScore = 0,
 		computerScore = 0;
+	playerScoreDisplay.textContent = playerScore;
+	computerScoreDisplay.textContent = computerScore;
 
 	let resultsHistory = [];
 
