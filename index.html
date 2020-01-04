@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|Crimson+Text:400,400i,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <p class="userInput fade-out"></p>
+        </div>
+        <div class="container" >
+            <!-- %nbsp is just an invisible character to placehold the spacing -->
+            <h1 class="computer-input">&nbsp</h1>
+        </div>
+        <div class="instructionsContainer container" >
+            <h2 class="instructions" >[type to begin]</h2>
+        </div>
+        <div class="menu container">
+            <p class="menu-items item-1" >new game</p>
+            <p class="menu-items item-2">set max score</p>
+        </div>
+
+        <div class="score container">
+            <div class="max-score-para">playing first to <span class="max-score">5</span></div>
+
+            <div class="score-keep">
+                <div class="player-score">0</div>
+               <div class="computer-score">0</div>
+            </div>
+        </div>
+        
+        <script src="bundle.js" async defer></script>
+    </body>
+</html>
